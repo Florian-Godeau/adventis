@@ -1,0 +1,9 @@
+.fullscreen-slider {
+    .carousel-item {
+      height: 100vh; // Fait que le carousel prend toute la hauteur de l'écran
+      img {
+        height: 100%; // S'étend à la hauteur de l'élément parent
+        object-fit: cover; // Couvre l'espace disponible sans déformer l'image
+      }
+    }
+  }

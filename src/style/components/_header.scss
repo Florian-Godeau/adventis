@@ -1,3 +1,11 @@
-.navbar-opaque {
+.navbar-opacity {
     background-color: rgba(0, 0, 0, 0.5) !important;
-  }
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 10; // Assurez-vous que le z-index est supérieur à celui des autres éléments
+  background: rgba(0, 0, 0, 0.5); // Ici, ajustez l'opacité comme vous le souhaitez
+}
+  
