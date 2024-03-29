@@ -1,0 +1,9 @@
+#fp-nav ul li a span {
+  background: white !important; /* Couleur de fond des bulletpoints */
+  width: 8px; /* Nouvelle largeur */
+  height: 8px; /* Nouvelle hauteur */
+}
+
+#fp-nav ul li a.active span {
+  background: white !important; /* Couleur pour l'indicateur actif */
+}
