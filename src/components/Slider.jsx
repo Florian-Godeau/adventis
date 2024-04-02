@@ -1,38 +1,40 @@
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import img1 from '../assets/img/img1.jpg';
-import img2 from '../assets/img/img2.jpg';
+import React, { useState } from 'react';
+import { Carousel, Modal } from 'react-bootstrap';
+import imgSlider from '../data/imgSlider.json';
 
 const FullscreenSlider = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedImg, setSelectedImg] = useState('');
+
+  // Gestionnaire pour ouvrir la modale avec l'image sélectionnée
+  const handleImageClick = (imgSrc) => {
+    setSelectedImg(imgSrc);
+    setShowModal(true);
+  };
+
   return (
-    <Carousel className="fullscreen-slider">
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={img1}
-          alt="First slide"
-          style={{ height: '100vh', objectFit: 'cover' }}
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Description for the first slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      {/* Début du deuxième Carousel.Item */}
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={img2}
-          alt="Second slide"
-          style={{ height: '100vh', objectFit: 'cover' }}
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Description for the second slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <>
+      <Carousel className="fullscreen-slider">
+        {imgSlider.map((slide) => (
+          <Carousel.Item key={slide.id} onClick={() => handleImageClick(slide.src)}>
+            <img
+              className="d-block w-100"
+              src={slide.src}
+              alt={slide.altText}
+              style={{ height: '100vh', cursor: 'pointer', objectFit: 'cover' }}
+            />
+          </Carousel.Item>
+        ))}
+      </Carousel>
+      
+      <Modal show={showModal} onHide={() => setShowModal(false)} centered>
+  <Modal.Body>
+    <img src={selectedImg} alt="Enlarged pic" style={{ maxWidth: '100%', maxHeight: '80vh', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
+  </Modal.Body>
+</Modal>
+    </>
   );
 };
 
 export default FullscreenSlider;
+
