@@ -1,3 +1,4 @@
+/* Styles existants */
 .navbar-opacity {
   background-color: rgba(255, 255, 255, 0.65) !important;
 }
@@ -6,7 +7,35 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1030; // Assurez-vous que le z-index est supérieur à celui des autres éléments
-  background: rgba(0, 0, 0, 0.5); // Ici, ajustez l'opacité comme vous le souhaitez
+  z-index: 1030;
+  background: rgba(0, 0, 0, 0.5);
 }
-  
+
+.custom-navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-navbar .navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0; /* Le garder fixe en haut */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  /* Ajuster la taille de l'icône */
+  height: 2em;
+}
+
+/* Ajuster les tailles de police pour artistName et nav-link */
+.artistName {
+  font-size: 2.4rem; /* Augmentation de la taille de police pour ADVENTIS */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.4rem; /* Taille de police des liens */
+  font-weight: normal;
+}
+

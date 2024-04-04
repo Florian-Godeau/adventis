@@ -1,25 +1,17 @@
 .fullscreen-slider {
-  .carousel-item {
-    height: 100vh; // Fait que le carousel prend toute la hauteur de l'écran
-    img {
-      height: 100%; // S'étend à la hauteur de l'élément parent
-      object-fit: cover; // Couvre l'espace disponible sans déformer l'image
+    .carousel-item {
+      height: 100vh; // Fait que le carousel prend toute la hauteur de l'écran
+      img {
+        height: 100%; // S'étend à la hauteur de l'élément parent
+        object-fit: cover; // Couvre l'espace disponible sans déformer l'image
+      }
     }
   }
 
-  .carousel-control-prev-icon {
-    background-image: url('https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/img/sliderarrowprev.png');
-    background-color: white;
-  }
-  
-  .carousel-control-next-icon {
-    background-image: url('https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/img/sliderarrownext.png');
-    background-color: white;
-  }
-
-  // Cibler les indicateurs de pagination
-  .carousel-indicators [data-bs-target] {
-    background-color: black !important; // Force la couleur de fond pour noir
-    // Ajoutez ici d'autres styles si nécessaire
+  /* Cacher les flèches sur les écrans medium (768px) et en dessous */
+@media (max-width: 767.98px) {
+  .fullscreen-slider .carousel-control-prev,
+  .fullscreen-slider .carousel-control-next {
+    display: none;
   }
 }
