@@ -1,12 +1,37 @@
 .fullscreen-slider {
-    .carousel-item {
-      height: 100vh; // Fait que le carousel prend toute la hauteur de l'écran
-      img {
-        height: 100%; // S'étend à la hauteur de l'élément parent
-        object-fit: cover; // Couvre l'espace disponible sans déformer l'image
-      }
+  .carousel-item {
+    height: 100vh; // Fait que le carousel prend toute la hauteur de l'écran
+    img {
+      height: 100%; // S'étend à la hauteur de l'élément parent
+      object-fit: cover; // Couvre l'espace disponible sans déformer l'image
     }
   }
+
+  // Ajustements spécifiques pour chaque image
+  .carousel-item:nth-child(1) img {
+    object-position: 50% 67%; // Position par défaut
+  }
+  .carousel-item:nth-child(2) img {
+    object-position: 50% 45%;
+  }
+  .carousel-item:nth-child(3) img {
+    object-position: 50% 30%;
+  }
+  .carousel-item:nth-child(4) img {
+    object-position: 50% 40%;
+  }
+  .carousel-item:nth-child(5) img {
+    object-position: 50% 35%;
+  }
+  .carousel-item:nth-child(6) img {
+    object-position: 50% 30%;
+  }
+  .carousel-item:nth-child(7) img {
+    object-position: 50% 40%;
+  }
+  // Continuez avec autant de sélecteurs nth-child que nécessaire
+}
+
 
   /* Cacher les flèches sur les écrans medium (768px) et en dessous */
 @media (max-width: 767.98px) {
