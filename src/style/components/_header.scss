@@ -39,3 +39,24 @@
   font-weight: normal;
 }
 
+.instagram-link {
+  display: flex;
+  align-items: center; /* Centre l'icône verticalement */
+  margin-right: 1rem; /* Ajoute un peu d'espace à droite de l'icône */
+  
+  img {
+    height: 2em; /* Ajuste la taille de l'icône ou de l'image */
+    opacity: 0.75; /* Définit l'opacité initiale plus faible */
+    transition: opacity 0.25s ease; /* Transition douce pour l'opacité */
+  }
+
+  &:hover img {
+    opacity: 1; /* Augmente l'opacité au survol pour un effet plus foncé */
+  }
+
+  .fab, img {
+    height: 2em; /* Ajuste la taille de l'icône ou de l'image */
+  }
+}
+
+
