@@ -1,9 +1,42 @@
 .about-background {
     height: 100vh; /* Utilisez 100vh pour couvrir toute la hauteur de la fenêtre */
-    background-image: url('../../assets/img/bgbio.webp');
+    background-image: url('../../assets/img/advantis.jpg');
     background-size: cover; /* Assurez que l'image couvre tout l'espace disponible */
-    background-position: 100% 25%; /* Centre l'image */
+    background-position: 100% 75%; /* Centre l'image */
     display: flex;
     justify-content: center;
     align-items: center; /* Centre le contenu (horizontal et vertical) */
   }
+
+  .about-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; // Ajustez la hauteur selon vos besoins
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .text-card {
+    background-color: rgba(255, 255, 255, 0.7); // Fond blanc avec opacité réduite
+    color: black; // Texte en noir
+    margin-left: 2rem; // Espace à gauche pour positionner la carte
+    padding: 2rem; // Espacement intérieur
+    width: 40%; // Ajustez la largeur selon vos besoins
+    height: auto; // Hauteur auto pour s'adapter au contenu
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Ombre légère pour un effet de carte
+    border-radius: 10px; // Bords arrondis
+  }
+  
+.defTitle {
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+
+.def {
+  font-family: 'EB Garamond', serif;
+}
+
+p {
+  text-align: center;
+}
