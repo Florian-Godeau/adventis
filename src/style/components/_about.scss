@@ -1,8 +1,8 @@
 .about-background {
     height: 100vh; /* Utilisez 100vh pour couvrir toute la hauteur de la fenêtre */
-    background-image: url('../../assets/img/advantis.jpg');
+    background-image: url('../../assets/img/bgbio.webp');
     background-size: cover; /* Assurez que l'image couvre tout l'espace disponible */
-    background-position: 100% 75%; /* Centre l'image */
+    background-position: 100% 10%; /* Centre l'image */
     display: flex;
     justify-content: center;
     align-items: center; /* Centre le contenu (horizontal et vertical) */
@@ -20,23 +20,91 @@
   .text-card {
     background-color: rgba(255, 255, 255, 0.7); // Fond blanc avec opacité réduite
     color: black; // Texte en noir
-    margin-left: 2rem; // Espace à gauche pour positionner la carte
+    margin-left: 17rem; // Espace à gauche pour positionner la carte
+    margin-top: 4em;
     padding: 2rem; // Espacement intérieur
-    width: 40%; // Ajustez la largeur selon vos besoins
+    width: 30%; // Ajustez la largeur selon vos besoins
     height: auto; // Hauteur auto pour s'adapter au contenu
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Ombre légère pour un effet de carte
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); // Ombre légère pour un effet de carte
     border-radius: 10px; // Bords arrondis
   }
   
 .defTitle {
   font-family: 'EB Garamond', serif;
-  font-weight: bold;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 .def {
   font-family: 'EB Garamond', serif;
+  font-style: italic;
 }
 
 p {
   text-align: center;
+  font-size: x-large;
 }
+
+@media (max-width: 1600px) {
+  .text-card p {
+    font-size: 20px; 
+  }
+}
+
+@media (max-width: 1300px) {
+  .text-card {
+    margin-left: 8rem;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .text-card {
+    margin-left: 5rem;
+    width: 45%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text-card {
+    margin-left: 4rem;
+    width: 40%;
+    font-size: 17px;
+  }
+
+  .text-card p {
+    font-size: 17px; 
+  }
+}
+
+@media (max-width: 900px) {
+  .about-background {
+    background-image: url('../../assets/img/bgbio3.jpg');
+    background-position: 50% 30%;
+  }
+
+  .text-card {
+    margin: 17rem auto 0 auto;
+    width: 60%;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-background {
+    background-image: url('../../assets/img/bgbio3.jpg');
+    background-position: 50% 30%;
+  }
+
+  .text-card {
+    margin: 17rem auto 0 auto;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .text-card p {
+    font-size: 15px; 
+  }
+}
+
+

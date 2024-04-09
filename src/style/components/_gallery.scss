@@ -1,0 +1,6 @@
+.gallery-background {
+    background-image: url('../../assets/img/backgroundWhite.webp');
+    height: 100vh; /* Utilisez 100vh pour couvrir toute la hauteur de la fenêtre */
+    background-size: cover; /* Assurez que l'image couvre tout l'espace disponible */
+    display: flex;
+}

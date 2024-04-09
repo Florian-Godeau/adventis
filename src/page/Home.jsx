@@ -3,9 +3,16 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import About from "../components/About";
+import Gallery from "../components/Gallery";
 
 class Home extends Component {
-  fullpageApi = null;
+  state = {
+    currentSection: 0,
+  };
+
+  onLeave = (origin, destination, direction) => {
+    this.setState({ currentSection: destination.index });
+  };
 
   onNavigate = (destination) => {
     if (this.fullpageApi) {
@@ -22,15 +29,14 @@ class Home extends Component {
           scrollingSpeed={700}
           navigation={true}
           navigationPosition={'right'}
-          sectionsColor={['#ff5f45', '#0798ec']}
+          onLeave={this.onLeave}
           render={({ state, fullpageApi }) => {
-            // Stocker la référence de fullpageApi dans l'instance du composant
             this.fullpageApi = fullpageApi;
-
             return (
               <ReactFullpage.Wrapper>
                 <div className="section"><Slider /></div>
-                <div className="section"><About /></div>
+                <div className="section"><About isActive={this.state.currentSection === 1} /></div>
+                <div className="section"><Gallery /></div>
               </ReactFullpage.Wrapper>
             );
           }}
@@ -41,3 +47,4 @@ class Home extends Component {
 }
 
 export default Home;
+
