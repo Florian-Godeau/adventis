@@ -59,4 +59,13 @@
   }
 }
 
+.invert-colors {
+  // Supposons que le fond et le texte doivent être inversés
+  background-color: rgba(0, 0, 0, 0.65) !important; // Pour l'exemple
+  
+  .navbar-brand, .nav-link, .instagram-link img {
+    color: white; // Inversez les couleurs comme nécessaire
+    // Vous pouvez ajouter ici d'autres ajustements pour les éléments du header
+  }
+}
 

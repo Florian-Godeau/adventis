@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar1.webp",
+      "altText": "Premier slide"
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar2.webp",
+      "altText": "Deuxième slide"
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar3.webp",
+      "altText": "Troisième slide"
+    },
+    {
+      "id": 4,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar4.webp",
+      "altText": "Quatrième slide"
+    },
+    {
+      "id": 5,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar5.webp",
+      "altText": "Cinquième slide"
+    },
+    {
+      "id": 6,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar6.webp",
+      "altText": "Sixième slide"
+    },
+    {
+      "id": 7,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar7.webp",
+      "altText": "Septième slide"
+    }
+  ]

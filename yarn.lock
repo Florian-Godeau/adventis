@@ -8292,6 +8292,11 @@ react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react-typewriter-hook@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-typewriter-hook/-/react-typewriter-hook-1.0.2.tgz#f98788541a400b13abe418b93742ff027739d57b"
+  integrity sha512-ICHmPaUfBMXz8EGtyNPhY0ftcHr/HC0bg3rQjoNp9kC4Dha+JK541MKdXphWgtnurftBCJ/f22kIjvbv8NYRgQ==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

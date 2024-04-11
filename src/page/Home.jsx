@@ -23,7 +23,7 @@ class Home extends Component {
   render() {
     return (
       <>
-        <Header onNavigate={this.onNavigate} />
+        <Header onNavigate={this.onNavigate} invertColors={this.state.currentSection === 2} />
         <ReactFullpage
           licenseKey={'YOUR_LICENSE_KEY'}
           scrollingSpeed={700}
