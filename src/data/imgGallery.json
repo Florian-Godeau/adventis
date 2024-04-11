@@ -1,37 +1,207 @@
 [
     {
       "id": 1,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar1.webp",
-      "altText": "Premier slide"
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau1.webp",
+      "alt": "Description du tableau 1",
+      "category": "Tableaux"
     },
     {
       "id": 2,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar2.webp",
-      "altText": "Deuxième slide"
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau2.webp",
+      "alt": "Description du tableau 2",
+      "category": "Tableaux"
     },
     {
-      "id": 3,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar3.webp",
-      "altText": "Troisième slide"
+        "id": 3,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau3.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+    {
+        "id": 4,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau4.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 5,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau5.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 6,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau6.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 7,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau7.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 8,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau8.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 9,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau9.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 10,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau10.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 11,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau11.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 12,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau12.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 13,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau13.webp.jpg",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 14,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau14.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 15,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau15.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 16,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau16.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 17,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau17.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 18,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau18.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 19,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau19.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 20,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau20.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 21,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau21.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 22,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau22.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 23,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau23.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 24,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau24.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 25,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau25.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 26,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau26.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 27,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau27.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+      {
+        "id": 28,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau28.webp",
+        "alt": "Description du tableau 2",
+        "category": "Tableaux"
+      },
+    {
+      "id": 29,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau29.webp",
+      "alt": "Description du tableau 29",
+      "category": "Tableaux"
     },
     {
-      "id": 4,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar4.webp",
-      "altText": "Quatrième slide"
+      "id": 30,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/fresque/Fresque1.webp",
+      "alt": "Description de la fresque 1",
+      "category": "Fresques"
     },
     {
-      "id": 5,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar5.webp",
-      "altText": "Cinquième slide"
-    },
+        "id": 31,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/fresque/Fresque2.webp",
+        "alt": "Description du tableau 2",
+        "category": "Fresques"
+      },
+      {
+        "id": 32,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/fresque/Fresque3.webp",
+        "alt": "Description du tableau 2",
+        "category": "Fresques"
+      },
+      {
+        "id": 33,
+        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/fresque/Fresque4.webp",
+        "alt": "Description du tableau 2",
+        "category": "Fresques"
+      },
     {
-      "id": 6,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar6.webp",
-      "altText": "Sixième slide"
-    },
-    {
-      "id": 7,
-      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgcarrousel/imgcar7.webp",
-      "altText": "Septième slide"
+      "id": 34,
+      "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/fresque/Fresque5.webp",
+      "alt": "Description de la fresque 5",
+      "category": "Fresques"
     }
   ]
+  
