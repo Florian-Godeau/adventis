@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Carousel, Modal, Button, Row, Col } from 'react-bootstrap';
-import images from '../data/imgGallery.json'; // Assurez-vous que le chemin d'accès est correct
+import { Carousel, Modal, Row, Col } from 'react-bootstrap'; // Import sans Button de Bootstrap
+import images from '../data/imgGallery.json';
 
 const Gallery = () => {
   const [show, setShow] = useState(false);
@@ -13,31 +13,42 @@ const Gallery = () => {
     setShow(true);
   };
 
-  // Filtrer les images par la catégorie actuelle
   const filteredImages = images.filter(image => image.category === currentCategory);
 
-  // Créer des slides pour le carrousel, avec 6 images par slide
   const slides = [];
   for (let i = 0; i < filteredImages.length; i += 6) {
     slides.push(filteredImages.slice(i, i + 6));
   }
 
   return (
-    <>
-      <Button onClick={() => setCurrentCategory('Tableaux')}>Tableaux</Button>
-      <Button onClick={() => setCurrentCategory('Fresques')}>Fresques</Button>
+    <div className="gallery-background">
+      <div className="category-buttons">
+        <button
+          type="button"
+          className={currentCategory === 'Tableaux' ? 'active-button' : 'button'}
+          onClick={() => setCurrentCategory('Tableaux')}
+        >
+          Tableaux
+        </button>
+        <button
+          type="button"
+          className={currentCategory === 'Fresques' ? 'active-button' : 'button'}
+          onClick={() => setCurrentCategory('Fresques')}
+        >
+          Fresques
+        </button>
+      </div>
       <Carousel>
         {slides.map((slide, index) => (
           <Carousel.Item key={index}>
             <Row>
               {slide.map((image) => (
-                <Col xs={6} md={4} key={image.id}>
+                <Col xs={12} md={6} lg={4} key={image.id}>
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="d-block w-100"
+                    className="d-block w-100 gallery-image"
                     onClick={() => handleShow(image)}
-                    style={{ cursor: 'pointer' }}
                   />
                 </Col>
               ))}
@@ -51,11 +62,12 @@ const Gallery = () => {
           <Modal.Title>{currentImage.alt}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={currentImage.src} alt={currentImage.alt} className="img-fluid" />
+          <img src={currentImage.src} className="img-fluid" alt={currentImage.alt} />
         </Modal.Body>
       </Modal>
-    </>
+    </div>
   );
 };
 
 export default Gallery;
+

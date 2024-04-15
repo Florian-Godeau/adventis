@@ -1,6 +1,54 @@
 .gallery-background {
-    background-image: url('../../assets/img/backgroundWhite.webp');
-    height: 100vh; /* Utilisez 100vh pour couvrir toute la hauteur de la fenêtre */
-    background-size: cover; /* Assurez que l'image couvre tout l'espace disponible */
-    display: flex;
+  background-image: url('../../assets/img/backgroundWhite.webp');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 70px;
 }
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.button, .active-button {
+  background-color: rgba(52, 58, 64, 0.5);
+  color: white;
+  border: none;
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgba(52, 58, 64, 0.7);
+  }
+
+  &:focus, &:active, &:focus-visible {
+    background-color: rgba(52, 58, 64, 1);
+    color: white;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.active-button {
+  background-color: rgba(52, 58, 64, 1);
+
+  &:hover, &:focus, &:active, &:focus-visible {
+    background-color: rgba(52, 58, 64, 1);
+  }
+}
+
+.gallery-image {
+  height: 30vh;
+  width: auto;
+  object-fit: cover;
+  margin: 5px;
+  border: 1px solid black;
+}
+
