@@ -1,0 +1,60 @@
+.background {
+    background-image: url('../../assets/img/backgroundWhite.webp');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; // Centre verticalement
+    align-items: center; // Centre horizontalement
+}
+
+.contact-footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 50%;  // Ajustez selon la taille souhaitée
+    border-radius: 10px; // Coins arrondis
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); // Ombre légère
+
+    .contact-intro {
+      font-size: 25px; // Taille de la police
+      color: white; // Couleur du texte
+      padding: 0 20px; // Ajustez le padding pour aligner avec le formulaire
+      margin-bottom: 20px; // Espacement avant le formulaire
+    }
+
+    .form-row {
+      margin-bottom: 15px; // Espacement entre les lignes
+    }
+
+    .form-group {
+      margin-bottom: 1rem; // Espacement standardisé
+    }
+
+    button {
+      margin-top: 10px; // Espacement au-dessus du bouton
+      width: auto; // Le bouton s'adapte à son contenu
+      display: block; // Assurez-vous que le bouton est un bloc pour le centrer
+      margin-left: auto; // Centrage du bouton
+      margin-right: auto; // Centrage du bouton
+    }
+}
+
+.custom-footer {
+    width: 100%; // Pleine largeur
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0; // Le footer reste en bas
+    left: 0;
+
+    a {
+      color: #fff;
+      &:hover {
+        color: #ddd;
+      }
+    }
+}
+

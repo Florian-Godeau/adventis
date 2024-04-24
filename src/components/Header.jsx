@@ -22,6 +22,8 @@ function Header({ onNavigate, invertColors }) {
           <Nav className="ms-auto">
             <Nav.Link onClick={() => onNavigate(1)}>Accueil</Nav.Link>
             <Nav.Link onClick={() => onNavigate(2)}>À propos</Nav.Link>
+            <Nav.Link onClick={() => onNavigate(3)}>Galerie</Nav.Link>
+            <Nav.Link onClick={() => onNavigate(4)}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

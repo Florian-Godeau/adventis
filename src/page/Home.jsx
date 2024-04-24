@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Slider from "../components/Slider";
 import About from "../components/About";
 import Gallery from "../components/Gallery";
+import ContactFooter from '../components/ContactFooter';
 
 class Home extends Component {
   state = {
@@ -23,7 +24,7 @@ class Home extends Component {
   render() {
     return (
       <>
-        <Header onNavigate={this.onNavigate} invertColors={this.state.currentSection === 2} />
+        <Header onNavigate={this.onNavigate} invertColors={this.state.currentSection === 2 || this.state.currentSection === 3} />
         <ReactFullpage
           licenseKey={'YOUR_LICENSE_KEY'}
           scrollingSpeed={700}
@@ -37,6 +38,7 @@ class Home extends Component {
                 <div className="section"><Slider /></div>
                 <div className="section"><About isActive={this.state.currentSection === 1} /></div>
                 <div className="section"><Gallery /></div>
+                <div className="section"><ContactFooter /></div>
               </ReactFullpage.Wrapper>
             );
           }}
