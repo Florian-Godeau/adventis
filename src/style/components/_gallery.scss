@@ -1,54 +1,297 @@
 .gallery-background {
   background-image: url('../../assets/img/backgroundWhite.webp');
-  height: 100vh;
+  height: 100vh; /* Hauteur du conteneur de la galerie */
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.category-buttons {
+.category-buttons, .year-buttons {
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
 }
 
-.button, .active-button {
+.category-button, .year-button {
   background-color: rgba(52, 58, 64, 0.5);
   color: white;
   border: none;
   margin: 5px;
-  padding: 8px 16px;
-  font-size: 16px;
+  padding: 8px 16px; /* Taille des boutons de filtres */
+  font-size: 16px; /* Taille de la police des boutons de filtres */
   transition: background-color 0.3s ease;
   border-radius: 5px;
+  cursor: pointer;
 
   &:hover {
     background-color: rgba(52, 58, 64, 0.7);
   }
 
-  &:focus, &:active, &:focus-visible {
+  &.active {
     background-color: rgba(52, 58, 64, 1);
-    color: white;
-    outline: none;
-    box-shadow: none;
+  }
+
+  @media (max-width: 768px) {
+    padding: 6px 12px; /* Taille des boutons de filtres pour tablettes */
+    font-size: 14px; /* Taille de la police des boutons de filtres pour tablettes */
+  }
+
+  @media (max-width: 480px) {
+    padding: 4px 8px; /* Taille des boutons de filtres pour mobiles */
+    font-size: 12px; /* Taille de la police des boutons de filtres pour mobiles */
   }
 }
 
-.active-button {
-  background-color: rgba(52, 58, 64, 1);
+.slick-slider {
+  width: 100%;
+  max-width: 1200px;
+}
 
-  &:hover, &:focus, &:active, &:focus-visible {
-    background-color: rgba(52, 58, 64, 1);
+.slick-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px; /* Hauteur du conteneur des photos */
+  
+  @media (max-width: 768px) {
+    height: 400px; /* Hauteur ajustée pour les tablettes */
   }
+
+  @media (max-width: 480px) {
+    height: 300px; /* Hauteur ajustée pour les mobiles */
+  }
+}
+
+.slick-list {
+  margin: 0 0 0 20px !important;
+}
+
+.slick-dots {
+  @media (max-width: 480px) {
+    bottom: -62px !important;
+  }
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.col-4 {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .gallery-image {
-  height: 30vh;
-  width: auto;
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  max-height: 300px;
   object-fit: cover;
-  margin: 5px;
-  border: 1px solid black;
+
+  @media (max-height: 880px) {
+    max-width: 90%;
+    max-height: 200px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+    max-height: 256px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 90%;
+    max-height: 256px;
+  }
 }
 
+.custom-modal {
+  max-width: 80%;
+  width: 80%;
+  height: 80vh; /* Hauteur maximale fixe */
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.modal-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Hauteur maximale fixe */
+}
+
+.modal-image-container, .modal-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+.modal-image-container {
+  position: relative;
+
+  .modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+
+  .info-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: rgba(52, 58, 64, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: rgba(52, 58, 64, 1);
+    }
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  &.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  &.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+}
+
+.modal-text-container {
+  text-align: center;
+  font-size: 14px; /* Taille de la police dans la modale */
+  opacity: 0;
+  display: none; /* Start hidden */
+
+  &.fade-in {
+    opacity: 1;
+    display: flex; /* Show when 'fade-in' class is added */
+    animation: fadeIn 0.5s; /* Apply fade-in animation */
+  }
+
+  &.fade-out {
+    opacity: 0;
+    display: flex; /* Keep display flex to animate opacity */
+    animation: fadeOut 0.5s; /* Apply fade-out animation */
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  .modal-text {
+    font-size: 14px;
+
+    @media (max-width: 768px) {
+      font-size: 12px; /* Taille de la police dans la modale pour tablettes */
+    }
+  
+    @media (max-width: 480px) {
+      font-size: 10px; /* Taille de la police dans la modale pour mobiles */
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 12px; /* Taille de la police dans la modale pour tablettes */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 10px; /* Taille de la police dans la modale pour mobiles */
+  }
+
+  .info-button {
+    padding: 10px 20px;
+    background-color: rgba(52, 58, 64, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+
+    &:hover {
+      background-color: rgba(52, 58, 64, 1);
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.modal-body p {
+  margin-top: 10px;
+}
+
+/* Custom styles for the arrows */
+.slick-prev, .slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  display: none;
+}

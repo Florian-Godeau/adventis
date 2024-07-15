@@ -3,174 +3,229 @@
       "id": 1,
       "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau1.webp",
       "alt": "Description du tableau 1",
-      "category": "Tableaux"
+      "category": "Tableaux",
+      "année": ""
     },
     {
       "id": 2,
       "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau2.webp",
       "alt": "Description du tableau 2",
-      "category": "Tableaux"
+      "category": "Tableaux",
+      "année": ""
     },
     {
         "id": 3,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau3.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
     {
         "id": 4,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau4.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 5,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau5.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 6,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau6.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 7,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau7.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 8,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau8.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 9,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau9.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 10,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau10.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 11,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau11.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 12,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau12.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 13,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau13.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 14,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau14.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 15,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau15.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 16,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau16.webp",
-        "alt": "Description du tableau 2",
+        "alt": "ALU, LE ROI KONYAK",
+        "description": "Collaboration entre le photographe Cyril Caldero et Adventis Frontière Inde Birmanie, tribe des Konyaks. Au royaume de Longwa, les derniers des chausseurs de têtes vieillissent sereinement dans un monde bien différent de celui de leur jeunesse. Ils étaient alors de redoutables guerriers au service du royaume et partaient chaque année en guerre contre les royaumes ennemis. Les hommes se préparaient quotidiennement à ces combats pour s'élever socialement car selon les croyances de la tribu Konyak, la valeur d'un homme était proportionnelle au nombre de têtes qu'il coupés et exposés devant chez lui.A cette époque, personne n'imaginait ce que pourrait être la vie dans un monde pacifique, mais dans les années 70, le développement des routes dans l'ensemble du Nagaland a désenclavé les villages et des missionnaires sont venus convertir ces territoires inexplorés.",
+        "type": "Acrylique sur carton",
+        "année": "2022",
+        "format": "50×70cm",
         "category": "Tableaux"
       },
       {
         "id": 17,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau17.webp",
-        "alt": "Description du tableau 2",
+        "alt": "CHENGJACK, 81 ans - Une tête",
+        "description": "Collaboration entre le photographe Cyril Caldero et Adventis Frontière Inde Birmanie, tribe des Konyaks. Au royaume de Longwa, les derniers des chausseurs de têtes vieillissent sereinement dans un monde bien différent de celui de leur jeunesse. Ils étaient alors de redoutables guerriers au service du royaume et partaient chaque année en guerre contre les royaumes ennemis. Les hommes se préparaient quotidiennement à ces combats pour s'élever socialement car selon les croyances de la tribu Konyak, la valeur d'un homme était proportionnelle au nombre de têtes qu'il coupés et exposés devant chez lui.A cette époque, personne n'imaginait ce que pourrait être la vie dans un monde pacifique, mais dans les années 70, le développement des routes dans l'ensemble du Nagaland a désenclavé les villages et des missionnaires sont venus convertir ces territoires inexplorés.",
+        "type": "Acrylique sur carton",
+        "année": "2022",
+        "format": "60×80cm",
         "category": "Tableaux"
       },
       {
         "id": 18,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau18.webp",
-        "alt": "Description du tableau 2",
+        "alt": "ALBERT EINSTEIN",
+        "description": "",
+        "type": "Acrylique sur carton, caisse vitrée",
+        "année": "2022",
+        "format": "",
         "category": "Tableaux"
       },
       {
         "id": 19,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau19.webp",
-        "alt": "Description du tableau 2",
+        "alt": "FRAGMENTS",
+        "description": "",
+        "type": "Acrylique, carton sur contre-plaqué",
+        "année": "2021",
+        "format": "",
         "category": "Tableaux"
       },
       {
         "id": 20,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau20.webp",
-        "alt": "Description du tableau 2",
+        "alt": "OMAN",
+        "description": "",
+        "type": "Acrylique sur carton",
+        "année": "2021",
+        "format": "",
         "category": "Tableaux"
       },
       {
         "id": 21,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau21.webp",
-        "alt": "Description du tableau 2",
+        "alt": "LE LOUP DE MER",
+        "description": "",
+        "type": "Acrylique sur carton, caisse vitrée",
+        "année": "2021",
+        "format": "Caisse vitrée",
         "category": "Tableaux"
       },
       {
         "id": 22,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau22.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 23,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau23.webp",
         "alt": "Description du tableau 2",
-        "category": "Tableaux"
+        "category": "Tableaux",
+        "année": ""
       },
       {
         "id": 24,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau24.webp",
-        "alt": "Description du tableau 2",
+        "alt": "Tribu MURSI",
+        "description": "Vivant au sud de l'Éthiopie, un des derniers peuples d'Afrique où les femmes portent les ornements en forme de disques plats sur les oreilles ou les lèvres",
+        "type": "Acrylique sur Carton",
+        "année": "2021",
+        "format": "95×70cm",
         "category": "Tableaux"
       },
       {
         "id": 25,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau25.webp",
-        "alt": "Description du tableau 2",
+        "alt": "Tribu HIMBA",
+        "description": "Peuple de Namibie connu pour se recouvrir les cheveux et le corps de glaise rouge.",
+        "type": "Acrylique sur Carton",
+        "année": "2021",
+        "format": "95×70cm",
         "category": "Tableaux"
       },
       {
         "id": 26,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau26.webp",
-        "alt": "Description du tableau 2",
+        "alt": "Peuple ZOULOU",
+        "description": "Un ensemble de petite tribu présente dans le Lesotho, Swaziland et Mozambique reconnaissables avec leurs chapeaux si particuliers.",
+        "type": "Acrylique sur Carton",
+        "année": "2021",
+        "format": "95×70cm",
         "category": "Tableaux"
       },
       {
         "id": 27,
         "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau27.webp",
-        "alt": "Description du tableau 2",
-        "category": "Tableaux"
-      },
-      {
-        "id": 28,
-        "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau28.webp",
-        "alt": "Description du tableau 2",
+        "alt": "Peuple MASSAÏ",
+        "description": "Peuple semi-nomade d'éleveurs et de guerriers. Principalement présent en Tanzanie et au Kenya",
+        "type": "Acrylique sur Carton",
+        "année": "2021",
+        "format": "95×70cm",
         "category": "Tableaux"
       },
     {
       "id": 29,
       "src": "https://cdn.jsdelivr.net/gh/Florian-Godeau/adventis@master/src/assets/imgGallerie/tableau/Tableau29.webp",
-      "alt": "Description du tableau 29",
+      "alt": "Peuple SWAZI",
+      "description": "Le Swaziland est l’une des rares monarchies exécutives restantes en Afrique. La coiffe de plumes rouge est réservé aux princesses.",
+      "type": "Acrylique sur Carton",
+      "année": "2021",
+      "format": "95×70cm",
       "category": "Tableaux"
     },
     {
